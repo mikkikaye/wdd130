@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto&family=Yeseva+One:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,9 +8,15 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: Alkalami, "Yeseva One", serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+h2 {
+    font-family: Alkalami, "Yeseva One", serif;
+    margin: 0;
 }
 .button-box {
     text-align: center;
@@ -16,11 +24,17 @@ nav a {
 main section {
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color: #79D4EA;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #3551B6;
@@ -33,22 +47,37 @@ nav a:hover {
     background-color: #79D4EA;
     color: white;
     text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 #background {
     background-color: white;
 }
 .msg {
     background-color: #E47D31;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #8C979A;
     color: white;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #E47D31;
+    font-family: Alkalami, "Yeseva One", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #E47D31;
+    font-family: Roboto, Arial, sans-serif;
 }
 .book:hover, .join:hover {
     color: black;
@@ -58,6 +87,8 @@ h4 {
 }
 .msg p {
     color: #3551B6;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: white;
@@ -71,6 +102,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px; 
 }
 #hero-img {
     width: 100%;
@@ -81,4 +113,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
+.social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #3551B6;
+}
