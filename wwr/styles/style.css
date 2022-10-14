@@ -44,8 +44,8 @@ nav a:hover {
     color: black;
 }
 .book, .join {
-    background-color: #79D4EA;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
