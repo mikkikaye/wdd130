@@ -183,8 +183,6 @@ footer p a:hover {
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
 .info {
     max-width: 100%;
     max-height: 200em;
@@ -256,7 +254,58 @@ form2 {
     grid-column: 10/12;
     grid-row: 15;
 }
-
+form3 {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    /* border: 1px solid black; */
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+input:focus, textarea:focus {
+    border-color: black;
+}
+textarea {
+    border-color: black;
+    vertical-align: top;
+    height: 5em;
+}
+button {
+    margin-left: 1em;
+}
+.button-send {
+    padding-left: 90px;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 
 
