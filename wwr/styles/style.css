@@ -224,7 +224,7 @@ footer p a:hover {
     font-size: 18px;
 }
 .location-grid img {
-    grid-column: 19;
+    grid-column: 20;
     grid-row: 3;
     max-width: 400px;;
 }
@@ -239,22 +239,22 @@ footer p a:hover {
     color: black;
     font-family: Alkalami, "Yeseva One", serif;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 .tab-button:hover {
     color: black;
     text-decoration: underline;
 }
-form {
+#first_date {
     grid-column: 2/4;
     grid-row: 15;
     /* margin-bottom: 20px; */
 }
-form2 {
-    grid-column: 10/12;
+#second_date {
+    grid-column: 10/17;
     grid-row: 15;
 }
-form3 {
+#submit_form {
     margin: 0 auto;
     width: 500px;
     padding: 1em;
@@ -276,7 +276,7 @@ label {
 }
 input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 195px;
     box-sizing: border-box;
     border: 1px solid black;
 }
