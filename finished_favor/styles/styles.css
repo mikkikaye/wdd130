@@ -101,6 +101,7 @@ body {
 .about-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 100px;
 }
 .special-card {
     grid-column: 2/4;
@@ -145,7 +146,6 @@ body {
     width: 80px;
     padding-top: 10px; 
 }
-
 
 
 
@@ -204,9 +204,9 @@ main section img{
 .angie {
     grid-column: 8;
     grid-row: 8;
-    /* width: 100%; */
-    height: 35%;
+    height: 800px;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 100px;
 }
 .me-bio {
     background-color: #85725D;
@@ -281,6 +281,7 @@ h3 {
 
 
 
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -304,16 +305,16 @@ h3 {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #616161;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .special-card, .thinking-card, .holiday-card, .snowman-card, .trunk-card, .butterfly-card { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mother, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
